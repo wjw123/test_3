@@ -1,0 +1,17 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+<meta charset="utf-8">
+	<head>
+	<title>文件上传</title>
+	</head>
+	<body>
+		<form enctype="multipart/form-data" action="http://localhost/demo/image2.php" method="POST">
+		<fieldset><legend>请选择一张图片并上传</legend>
+		<input type="file" name="upone">
+		<p><b>验证码</b><input type="text" name="yzm">
+		<img src="yzm.php" id="yzm"></p>
+		</fieldset>
+		<p align="center"><input type="submit"  name="submit" value="上传"></p>
+		</form>
+</body>
+</HTML>
